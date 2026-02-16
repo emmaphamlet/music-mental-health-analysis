@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep raw data out of git by default)
+data/*.csv
+data/*.tsv
+data/*.xlsx
+data/*.parquet
+
+# Secrets
+*.pem
+*.key
